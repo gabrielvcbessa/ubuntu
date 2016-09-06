@@ -1,6 +1,9 @@
 # Installing Vim
 sudo apt-get install vim
 
+# Installing Tmux
+sudo apt-get install tmux
+
 # Installing Sublime-Text 3
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
