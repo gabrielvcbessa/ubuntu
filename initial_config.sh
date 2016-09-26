@@ -27,3 +27,6 @@ sudo apt-get install spotify-client
 # Installing Rvm
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 \curl -sSL https://get.rvm.io | bash
+
+# Configuring our rvm
+bash rvm_basic_config.sh
