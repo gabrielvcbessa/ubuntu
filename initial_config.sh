@@ -1,3 +1,9 @@
+# Making sure that our Firefox is in the right version
+# to run our tests
+sudo apt-get purge firefox
+wget 'https://sourceforge.net/projects/ubuntuzilla/files/mozilla/apt/pool/main/f/firefox-mozilla-build/firefox-mozilla-build_46.0.1-0ubuntu1_amd64.deb/download'
+sudo dpkg -i download
+
 # Installing Vim
 sudo apt-get install vim
 
